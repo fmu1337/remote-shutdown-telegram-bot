@@ -25,7 +25,7 @@ def main():
                 if text=="shut down" and username=="your user name here":    # your telegram username,so only you can access your pc
 
                 	try:
-                        	os.system('shutdown /s /t 5')
+                        	os.system('start C:\!gd\upsoff.bat')
                             	LAST_UPDATE_ID = update_id
 
 
